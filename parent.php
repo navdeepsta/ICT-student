@@ -56,7 +56,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<table border='1' align = 'center' class="table table-hover">
+    echo "<table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th>Women Program</th>        
         </tr>\n";
@@ -82,7 +82,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<table border='1' align = 'center' class="table table-hover">
+    echo "<table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th>Internship Programs</th>        
         </tr>\n";
@@ -108,7 +108,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<table border='1' align = 'center' class="table table-hover">
+    echo "<table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th>University Name</th> 
           <th>Website</th>  
@@ -165,7 +165,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo  "<table border='1' align = 'center' class="table table-hover">
+    echo  "<table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th>ICT Programs</th> 
           
