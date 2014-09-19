@@ -61,11 +61,11 @@
 	
 	if(isset($_POST['help']))
    {
-     $query  = "select * from career where Job_Type='Helpful' ";
+     $query  = "select * from career ";
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
+    echo "<table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th></th>        
         </tr>\n";
@@ -77,7 +77,7 @@
      }
      echo "\t</tr>\n";
     }
-    echo "</table></div>\n";
+    echo "</table>\n";
 	
 	// Free resultset
       pg_free_result($result);
@@ -87,7 +87,7 @@
 	 
 	 if(isset($_POST['business']))
    {
-     $query  = "select * from career where Job_Type='Business Analysis' ";
+     $query  = "select * from career where Job_Type='Business Analysis'";
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
