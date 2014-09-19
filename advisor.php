@@ -65,7 +65,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class="table-responsive"><table border='1' align = 'center' class='table table-hover'>
+    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th></th>        
         </tr>\n";
@@ -91,7 +91,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class="table-responsive"><table border='1' align = 'center' class='table table-hover'>
+    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th></th>        
         </tr>\n";
@@ -117,9 +117,9 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class="table-responsive"><table border='1' align = 'center' class='table table-hover'>
-	     <tr>
-         <th></th>        
+    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
+	      <tr>
+         <th></th>         
         </tr>\n";
 
     while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
@@ -143,7 +143,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class="table-responsive"><table border='1' align = 'center' class='table table-hover'>
+    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th></th>        
         </tr>\n";
@@ -169,7 +169,7 @@
 	 
 	 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
-    echo "<div class="table-responsive"><table border='1' align = 'center' class='table table-hover'>
+    echo "<div class='table-responsive'><table border='1' align = 'center' class='table table-hover'>
 	     <tr>
          <th></th>        
         </tr>\n";
